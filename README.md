@@ -1,7 +1,7 @@
 # Leetcode Daily Grind In Java
 
 ## Requirements
-- Java 17
+- Java 11
 - [Maven](https://maven.apache.org/download.cgi)
 
 Problem Category | 
