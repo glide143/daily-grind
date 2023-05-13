@@ -1,9 +1,11 @@
 package com.melchizedek.leet.code.grind.medium;
 
+import com.melchizedek.leet.code.grind.util.LeetCodeUtils;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
+import static com.melchizedek.leet.code.grind.util.LeetCodeUtils.MOD;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class NumOfSubSatisfyGivenSumCondiTest {
@@ -42,7 +44,6 @@ public class NumOfSubSatisfyGivenSumCondiTest {
 
     private int numSubseq(int[] nums, int target) {
         Arrays.sort(nums);
-        final int MOD = 1000_000_007;
         int n = nums.length;
         int result = 0;
         int left = 0, right = n - 1;
